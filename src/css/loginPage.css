@@ -1,0 +1,67 @@
+.login_container {
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(139, 144, 146) 10%, rgb(80, 72, 88) 50%, rgba(190, 185, 185,0.7)51%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_container .login_page {
+    padding: 2em 1em 4em 1em;
+    background: rgba(15,15,15,0.2);
+    border: solid 0.1em rgba(15,15,15,0.3);
+    box-shadow: 2px 1px 20px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 0.45em;
+}
+.login_container .main_txt {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.login_container .userInput_field {
+    position: relative;
+    margin-bottom: 1em;
+}
+.login_container .user_icon {
+    position: absolute;
+    left: 0.5em;
+    top: 0.65em;
+}
+.login_container .input_field {
+    width: 21em;
+    padding: 0.35em 0.35em 0.35em 1.95em;
+    border-radius: 0.35em;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.login_container .err_msg {
+    color: rgb(231, 45, 45);
+    font-size: 0.8em;
+    font-weight: 500;
+    padding-left: 0.2em;
+    padding-top: 0.15em;
+}
+.login_container .show_pwd_con {
+    display: flex;
+    align-items: center;
+    margin-top: 0.25em;
+    margin-left: 0.1em;
+    color: #fff;
+}
+.login_container .pwd_txt {
+    font-size: 0.85em;
+    margin-left: 0.35em;
+    cursor: pointer;
+}
+.login_container input[type=checkbox] {
+    margin: 0 !important;
+}
+.login_container button {
+    width: 100%;
+    margin-top: 1.5em;
+    padding: 0.35em;
+    border-radius: 0.5em;
+    font-weight: 500;
+    background: rgb(182, 174, 174);
+    color: black;
+}

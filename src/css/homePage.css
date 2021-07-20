@@ -1,0 +1,42 @@
+.homePage_container {
+    height: 100vh;
+    background: rgba(221, 218, 218, 0.7);
+    padding: 1em;
+}
+.homePage_container .home_page_heading {
+    border-left: 0.5em solid rgb(70, 67, 67);
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+}
+.homePage_container .heading_txt {
+    color: rgb(31, 29, 29);
+    padding-left: 0.5em;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.homePage_container .table_container {
+    width: 100%;
+    margin: 2em 0;
+}
+.homePage_container .table_container table {
+    width: 100%;
+    overflow: auto;
+    border-collapse: unset;
+}
+.homePage_container .table {
+    overflow: auto;
+    width: 100%;
+}
+.homePage_container table thead {
+    background: rgb(168, 166, 166);
+}
+.homePage_container table thead th {
+    padding: 0.35em;
+    color: black;
+    border: 1px solid black;
+}
+.homePage_container table tbody td {
+    padding: 0.35em;
+    border: 1px solid black;
+}

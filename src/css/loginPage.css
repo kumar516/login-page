@@ -55,6 +55,8 @@
 }
 .login_container input[type=checkbox] {
     margin: 0 !important;
+    width: 0.9em;
+    height: 0.9em;
 }
 .login_container button {
     width: 100%;
